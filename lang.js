@@ -10,7 +10,7 @@ function setLanguage(lang) {
 // 2. 核心：自动加载/停止 iframe 的“开关”
 function initProjectObserver() {
     // 选出所有需要懒加载的容器（小项目 + 三视频板块）
-    const projectSections = document.querySelectorAll('.small-work-fullscreen, .triple-video-section, .piano-section');
+    const projectSections = document.querySelectorAll('.small-work-fullscreen, .triple-video-section, .piano-section, .podcast-split');
 
     const observerOptions = {
         root: null,
